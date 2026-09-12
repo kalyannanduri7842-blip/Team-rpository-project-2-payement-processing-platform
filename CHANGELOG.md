@@ -106,3 +106,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #1 - [AUTH] Implement JWT token signature verification and expiration check
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
