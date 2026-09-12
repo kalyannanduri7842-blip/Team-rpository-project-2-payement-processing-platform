@@ -46,3 +46,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #12 - [MONITORING] Add Prometheus metrics export for service latency
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
