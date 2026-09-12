@@ -14,18 +14,10 @@
     "build": "npm run build:packages && npm run build:web",
     "build:packages": "npm run build --workspaces --if-present",
     "build:web": "npm run build --workspace=@payment-system/web",
-<<<<<<< HEAD
-    "test": "npx jest --coverage",
-    "test:coverage": "npx jest --coverage",
-    "test:unit": "npx jest tests/unit",
-    "test:integration": "npx jest tests/integration",
-    "test:e2e": "npx jest tests/e2e",
-=======
     "test": "jest --passWithNoTests",
     "test:unit": "jest tests/unit",
     "test:integration": "jest tests/integration",
     "test:e2e": "jest tests/e2e",
->>>>>>> 6b956bfd2927a766126b9b48a4106bc277321d74
     "db:migrate": "tsx packages/database/src/migrate.ts",
     "db:seed": "tsx packages/database/src/seed.ts",
     "chaos:test": "tsx scripts/chaos-test.ts",
