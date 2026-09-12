@@ -1023,3 +1023,4 @@ export function extra000Agg14(rows: Array<{ amount?: number }>): number {
 export function extra000Agg15(rows: Array<{ amount?: number }>): number {
   return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
 }
+// extra loc marker
