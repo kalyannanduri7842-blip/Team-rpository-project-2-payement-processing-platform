@@ -122,3 +122,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #5 - [PAYMENT-ENGINE] Add support for 3D Secure 2.0 authentication flow
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
