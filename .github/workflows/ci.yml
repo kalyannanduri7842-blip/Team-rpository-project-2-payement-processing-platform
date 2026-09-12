@@ -1,0 +1,37 @@
+name: Continuous Integration & Distributed System Verification
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test-and-build:
+    name: Lint, Test, and Build Monorepo
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Monorepo Dependencies
+        run: npm ci
+
+      - name: Typecheck Shared Packages & Services
+        run: npx tsc --noEmit
+
+      - name: Run Chaos & Distributed Systems Verification
+        run: npx tsx scripts/chaos-test.ts
+
+      - name: Run Unit & Integration Test Suites
+        run: npm test
+
+      - name: Build React Web Application
+        run: npm run build:web

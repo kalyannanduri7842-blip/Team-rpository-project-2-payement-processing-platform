@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@payment-system/shared-types": ["packages/shared-types/src"],
+      "@payment-system/shared-config": ["packages/shared-config/src"],
+      "@payment-system/shared-utils": ["packages/shared-utils/src"],
+      "@payment-system/database": ["packages/database/src"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", "apps/web"]
+}

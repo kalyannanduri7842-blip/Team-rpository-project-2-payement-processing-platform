@@ -1,0 +1,26 @@
+{
+  "name": "@payment-system/refund-service",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@payment-system/database": "*",
+    "@payment-system/shared-config": "*",
+    "@payment-system/shared-types": "*",
+    "@payment-system/shared-utils": "*",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
