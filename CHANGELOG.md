@@ -378,3 +378,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #69 - [REFUND] Add partial refund calculations and balance verification
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
