@@ -19,5 +19,5 @@
       "@payment-system/database": ["packages/database/src"]
     }
   },
-  "exclude": ["node_modules", "dist", "build", "apps/web"]
+  "exclude": ["node_modules", "dist", "build", "apps/web", "packages/extra-domain"]
 }
