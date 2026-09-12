@@ -446,3 +446,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #86 - [LEDGER] Implement double-entry ledger entry validation
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
