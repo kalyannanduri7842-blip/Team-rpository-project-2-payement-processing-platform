@@ -32,12 +32,15 @@ function runGitInDir(dirPath: string) {
 
   if (!fs.existsSync(dirPath)) return;
 
-  const run = (cmd: string) => {
+  const run = (cmd: string, ignoreError = false) => {
     try {
       return execSync(cmd, { cwd: dirPath, encoding: 'utf8', stdio: 'pipe' });
     } catch (err: any) {
-      console.error(`Error running command "${cmd}" in ${dirPath}:`, err.message);
-      throw err;
+      if (!ignoreError) {
+        console.error(`Error running command "${cmd}" in ${dirPath}:`, err.message);
+        throw err;
+      }
+      return '';
     }
   };
 
@@ -52,25 +55,18 @@ function runGitInDir(dirPath: string) {
   run('git config user.email "engineering@payment-system.internal"');
   run('git config core.autocrlf false');
 
-  // Checkout main or master
-  try {
-    run('git checkout -b main');
-  } catch {
-    try { run('git checkout main'); } catch {}
-  }
+  // Checkout main
+  run('git checkout -b main', true);
+  run('git checkout main', true);
 
   // Stage initial files
   const changeLogFile = path.join(dirPath, 'CHANGELOG.md');
   if (!fs.existsSync(changeLogFile)) {
-    fs.writeFileSync(changeLogFile, '# Payment Processing System Changelog\n\nAll notable changes to this project will be documented in this file.\n\n', 'utf8');
+    fs.writeFileSync(changeLogFile, '# Payment Processing System Changelog\n\nAll meanginful changes documented here.\n\n', 'utf8');
   }
 
   run('git add -A');
-  try {
-    run('git commit -m "initial: initialize enterprise payment processing backend system"');
-  } catch (e) {
-    // If initial commit already exists
-  }
+  run('git commit -m "initial: initialize enterprise payment processing backend system"', true);
 
   // Create 108 PRs (feature branch + commit + non-FF merge commit)
   const totalPRs = 108;
@@ -79,8 +75,8 @@ function runGitInDir(dirPath: string) {
     const slug = topic.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 30);
     const branchName = `feature/PR-${i}-${slug}`;
 
-    // Create and checkout feature branch
-    try { run(`git branch -D ${branchName}`); } catch {}
+    // Clean branch if exists
+    run(`git branch -D ${branchName}`, true);
     run(`git checkout -b ${branchName}`);
 
     // Make a minor update in CHANGELOG.md
@@ -104,7 +100,7 @@ function runGitInDir(dirPath: string) {
   const commitCount = logOutput.split('\n').filter(Boolean).length;
   const mergeCount = run('git log --oneline --merges').split('\n').filter(Boolean).length;
 
-  console.log(`\nGit History Generation Completed!`);
+  console.log(`\nGit History Generation Completed for ${dirPath}!`);
   console.log(`Total Commits: ${commitCount}`);
   console.log(`Total Merges (Pull Requests): ${mergeCount}`);
 }
