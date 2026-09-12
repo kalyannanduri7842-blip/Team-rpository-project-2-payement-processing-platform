@@ -534,3 +534,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #108 - [MERCHANT] Add webhook URL validation and signature headers
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
