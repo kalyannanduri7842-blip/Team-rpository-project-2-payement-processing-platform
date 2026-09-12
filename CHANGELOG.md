@@ -498,3 +498,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #99 - [SECURITY] Enforce strict CORS and CSP security headers
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
