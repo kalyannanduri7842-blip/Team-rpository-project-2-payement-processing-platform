@@ -33,3 +33,4 @@ describe('DistributedEventBroker', () => {
     expect(metrics.completedJobs).toBeGreaterThanOrEqual(1);
   });
 });
+

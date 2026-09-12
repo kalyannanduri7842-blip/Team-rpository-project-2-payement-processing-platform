@@ -44,3 +44,4 @@ describe('Payment Processing System E2E Workflow', () => {
     expect(finalRecord?.state).toBe('COMPLETED');
   });
 });
+

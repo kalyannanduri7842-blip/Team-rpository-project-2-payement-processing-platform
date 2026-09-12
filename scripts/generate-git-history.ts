@@ -110,3 +110,4 @@ const parentDir = 'C:\\Users\\gopiv\\Downloads\\payment-processing-backend-only'
 
 runGitInDir(mainDir);
 runGitInDir(parentDir);
+
