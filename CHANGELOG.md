@@ -518,3 +518,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #104 - [EVENT-BUS] Implement dead-letter queue replay API endpoint
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
