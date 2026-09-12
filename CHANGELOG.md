@@ -306,3 +306,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #51 - [DATABASE] Add database indices for transaction reference lookups
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
