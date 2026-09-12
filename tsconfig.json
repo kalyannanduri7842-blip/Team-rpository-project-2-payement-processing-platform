@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
+<<<<<<< HEAD
     "module": "CommonJS",
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -8,6 +9,18 @@
     "sourceMap": true,
     "strict": false,
     "skipLibCheck": true,
+=======
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+>>>>>>> 6b956bfd2927a766126b9b48a4106bc277321d74
     "baseUrl": ".",
     "paths": {
       "@payment-system/shared-types": ["packages/shared-types/src"],
@@ -16,6 +29,11 @@
       "@payment-system/database": ["packages/database/src"]
     }
   },
+<<<<<<< HEAD
   "include": ["packages/**/*", "apps/**/*", "tests/**/*"]
 }
 
+=======
+  "exclude": ["node_modules", "dist", "build", "apps/web", "packages/extra-domain"]
+}
+>>>>>>> 6b956bfd2927a766126b9b48a4106bc277321d74

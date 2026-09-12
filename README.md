@@ -121,3 +121,7 @@ Spins up PostgreSQL 16, Redis 7, RabbitMQ 3, the Microservices Cluster, and the 
 - ⚙️ [Distributed Systems Design](docs/distributed-system.md)
 - 🧪 [Testing & Chaos Guide](docs/testing.md)
 - 🚀 [Deployment & Docker Guide](docs/deployment.md)
+<<<<<<< HEAD
+=======
+"# Team-rpository-project-2-payement-processing-platform" 
+>>>>>>> 6b956bfd2927a766126b9b48a4106bc277321d74
