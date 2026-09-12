@@ -54,3 +54,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #14 - [RETRY] Implement full-jitter exponential backoff algorithm
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
