@@ -290,3 +290,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #47 - [FRAUD] Add velocity check rules for high-frequency transactions
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
