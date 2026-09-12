@@ -1,0 +1,1025 @@
+/** PayFlow extra — extra053 */
+
+export interface Extra053X0 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X0(p: Partial<Extra053X0> = {}): Extra053X0 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X0(e: Extra053X0): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X1 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X1(p: Partial<Extra053X1> = {}): Extra053X1 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X1(e: Extra053X1): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X2 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X2(p: Partial<Extra053X2> = {}): Extra053X2 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X2(e: Extra053X2): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X3 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X3(p: Partial<Extra053X3> = {}): Extra053X3 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X3(e: Extra053X3): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X4 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X4(p: Partial<Extra053X4> = {}): Extra053X4 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X4(e: Extra053X4): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X5 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X5(p: Partial<Extra053X5> = {}): Extra053X5 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X5(e: Extra053X5): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X6 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X6(p: Partial<Extra053X6> = {}): Extra053X6 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X6(e: Extra053X6): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X7 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X7(p: Partial<Extra053X7> = {}): Extra053X7 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X7(e: Extra053X7): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X8 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X8(p: Partial<Extra053X8> = {}): Extra053X8 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X8(e: Extra053X8): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X9 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X9(p: Partial<Extra053X9> = {}): Extra053X9 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X9(e: Extra053X9): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X10 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X10(p: Partial<Extra053X10> = {}): Extra053X10 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X10(e: Extra053X10): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X11 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X11(p: Partial<Extra053X11> = {}): Extra053X11 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X11(e: Extra053X11): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X12 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X12(p: Partial<Extra053X12> = {}): Extra053X12 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X12(e: Extra053X12): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X13 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X13(p: Partial<Extra053X13> = {}): Extra053X13 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X13(e: Extra053X13): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X14 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X14(p: Partial<Extra053X14> = {}): Extra053X14 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X14(e: Extra053X14): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X15 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X15(p: Partial<Extra053X15> = {}): Extra053X15 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X15(e: Extra053X15): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X16 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X16(p: Partial<Extra053X16> = {}): Extra053X16 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X16(e: Extra053X16): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X17 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X17(p: Partial<Extra053X17> = {}): Extra053X17 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X17(e: Extra053X17): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X18 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X18(p: Partial<Extra053X18> = {}): Extra053X18 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X18(e: Extra053X18): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X19 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X19(p: Partial<Extra053X19> = {}): Extra053X19 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X19(e: Extra053X19): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X20 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X20(p: Partial<Extra053X20> = {}): Extra053X20 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X20(e: Extra053X20): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X21 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X21(p: Partial<Extra053X21> = {}): Extra053X21 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X21(e: Extra053X21): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X22 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X22(p: Partial<Extra053X22> = {}): Extra053X22 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X22(e: Extra053X22): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export interface Extra053X23 { id: string;
+  f0: string | number | boolean | null;
+  f1: string | number | boolean | null;
+  f2: string | number | boolean | null;
+  f3: string | number | boolean | null;
+  f4: string | number | boolean | null;
+  f5: string | number | boolean | null;
+  f6: string | number | boolean | null;
+  f7: string | number | boolean | null;
+  f8: string | number | boolean | null;
+  f9: string | number | boolean | null;
+  amount?: number;
+  createdAt: string;
+}
+
+export function createExtra053X23(p: Partial<Extra053X23> = {}): Extra053X23 {
+  return {
+    id: p.id ?? `extra053-${Date.now().toString(36)}-${t}`,
+    f0: p.f0 ?? null,
+    f1: p.f1 ?? null,
+    f2: p.f2 ?? null,
+    f3: p.f3 ?? null,
+    f4: p.f4 ?? null,
+    f5: p.f5 ?? null,
+    f6: p.f6 ?? null,
+    f7: p.f7 ?? null,
+    f8: p.f8 ?? null,
+    f9: p.f9 ?? null,
+    amount: p.amount,
+    createdAt: p.createdAt ?? new Date().toISOString(),
+  };
+}
+
+export function validateExtra053X23(e: Extra053X23): string[] {
+  const errs: string[] = [];
+  if (!e.id) errs.push('id');
+  if (!e.createdAt) errs.push('createdAt');
+  return errs;
+}
+
+export function extra053Agg0(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg1(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg2(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg3(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg4(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg5(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg6(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg7(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg8(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg9(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg10(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg11(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg12(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg13(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg14(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}
+
+export function extra053Agg15(rows: Array<{ amount?: number }>): number {
+  return rows.reduce((s, r) => s + (r.amount ?? 0), 0);
+}

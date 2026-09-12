@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  # Persistence Engine: PostgreSQL
+  postgres:
+    image: postgres:16-alpine
+    container_name: payflow-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: payment_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./infrastructure/postgres/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Distributed In-Memory Cache: Redis
+  redis:
+    image: redis:7-alpine
+    container_name: payflow-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Distributed Message Broker: RabbitMQ
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: payflow-rabbitmq
+    restart: unless-stopped
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+  # Distributed Microservices Cluster
+  distributed-services:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile.services
+    container_name: payflow-services
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://postgres:postgrespassword@postgres:5432/payment_db
+      REDIS_URL: redis://redis:6379
+      RABBITMQ_URL: amqp://rabbitmq:5672
+      PORT_GATEWAY: 4000
+    ports:
+      - "4000:4000"
+      - "4001:4001"
+      - "4002:4002"
+      - "4003:4003"
+      - "4004:4004"
+      - "4005:4005"
+      - "4006:4006"
+      - "4007:4007"
+      - "4008:4008"
+      - "4009:4009"
+
+  # React Web Application Client
+  web:
+    build:
+      context: .
+      dockerfile: infrastructure/docker/Dockerfile.web
+    container_name: payflow-web
+    restart: unless-stopped
+    depends_on:
+      - distributed-services
+    ports:
+      - "80:80"
+      - "5173:80"
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbitmq_data:

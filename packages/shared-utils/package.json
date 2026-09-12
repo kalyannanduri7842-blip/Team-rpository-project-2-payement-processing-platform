@@ -1,0 +1,18 @@
+{
+  "name": "@payment-system/shared-utils",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@payment-system/shared-config": "*",
+    "@payment-system/shared-types": "*",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.7.3"
+  }
+}

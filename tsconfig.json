@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@payment-system/shared-types": ["packages/shared-types/src"],
+      "@payment-system/shared-config": ["packages/shared-config/src"],
+      "@payment-system/shared-utils": ["packages/shared-utils/src"],
+      "@payment-system/database": ["packages/database/src"]
+    }
+  },
+  "include": ["packages/**/*", "apps/**/*", "tests/**/*"]
+}
