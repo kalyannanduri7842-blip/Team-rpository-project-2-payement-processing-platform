@@ -462,3 +462,7 @@ All notable changes to this project will be documented in this file.
 - Added feature implementation and unit tests.
 - Updated system docs and configuration.
 
+## PR #90 - [API-GATEWAY] Configure IP rate limiting and concurrency shields
+- Added feature implementation and unit tests.
+- Updated system docs and configuration.
+
